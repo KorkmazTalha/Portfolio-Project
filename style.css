@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 0.77rem;
+}
+@media screen and (max-width:700px){
+    nav{
+        display: flex;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5rem;
+    }
+    #ilkp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondcontent{
+        padding-left: 20px;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    footer ul{
+        font-size: 0.5rem;
+    }
+    .footertasarım li{
+        font-size: 0.9rem;
+    }
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+#left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    width: 60%;
+}
+#right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+#özel{
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: burlywood;
+    border-top: 3px solid;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    background-color: bisque;
+}
+.footer ul{list-style: none;}
+.footertasarım{
+    font-size: 2rem;
+    font-family: fantasy;
+}
+.content{
+    display: flex;
+}
+.firstcontent{
+    display: flex;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+}
+.img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#img-1{
+    width: 600px;
+    height: 700px;
+}
+.secondcontent{
+    display: flex;
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(184, 153, 116);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#ilkp{
+    width: 37%;
+    font-family: fantasy;
+    font-size: 1.1rem;
+}
+#ikincip{
+    width: 71%;
+    font-family: fantasy;
+    font-size: 1.1rem;
+}
+@media screen and (max-width:700px){
+    #ikincip{
+        width: 85%;
+        font-size: 0.5rem;
+    }
+    .hizmetler{
+        display: flex;
+        flex-direction: column;
+    }
+    .ilkicerik{
+        margin: 85px;
+    }
+    .ikinciicerik{
+        margin: 85px;
+    }
+}
+.ilkmain{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.ilkmain ul li{color: aliceblue;}
+.ilkmain ul li:hover{
+    color: burlywood;
+    border-top: 3px solid;
+}
+.ikincimain{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.ikincimain ul li{color: aliceblue;}
+.ikincimain ul li:hover{
+    color: burlywood;
+    border-top: 3px solid;
+}
+.ilkicerik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+}
+.birincibolum{
+    display: flex;
+    width: 456px;
+    height: 250px;
+    border: 3px solid;
+    margin: 3px;
+}
+.ikincibolum{
+    display: flex;
+    width: 456px;
+    height: 250px;
+    border: 3px solid;
+}
+#websitetasarimi{
+    width: 450px;
+    height: 244px;
+    transition: 0.5s;
+    margin: 0px;
+}
+#websitetasarimi:hover{
+    transform: scale(1.2);
+    background-color: black;
+    z-index: 2;
+}
+#uygulamagelistirme{
+    width: 450px;
+    height: 244px;
+    transition: 0.5s;
+    margin: 0px;
+}
+#uygulamagelistirme:hover{
+    transform: scale(1.2);
+    background-color: black;
+    z-index: 2;
+}
+#front-end-developer{
+    width: 450px;
+    height: 244px;
+    transition: 0.5s;
+    margin: 0px;
+}
+#front-end-developer:hover{
+    transform: scale(1.2);
+    background-color: black;
+    z-index: 2;
+}
+#back-end{
+    width: 450px;
+    height: 244px;
+    transition: 0.5s;
+    margin: 0px;
+}
+#back-end:hover{
+    transform: scale(1.2);
+    background-color: black;
+    z-index: 2;
+}
+.ikinciicerik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1000px;
+}
+.ucuncubolum{
+    display: flex;
+    width: 456px;
+    height: 250px;
+    border: 3px solid;
+    margin: 3px;
+}
+.dorduncubolum{
+    display: flex;
+    width: 456px;
+    height: 250px;
+    border: 3px solid;
+}
+.hizmetler{
+    display: flex;
+}
